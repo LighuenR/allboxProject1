@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .navbar {
     background: black;
     padding: 1.5rem 0;
@@ -6,4 +12,31 @@
 
 .nav-link {
     margin: 0 0.5rem;
+}
+.d-flex {
+    color:white;
+    padding: 1.5rem 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.services {
+    background: #4054B2;
+    min-height: 60vh;
+}
+
+.fas {
+    font-size: 4rem;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.services-card {
+ text-align: center;
+ padding: 0.5rem;
+}
+
+@media (max-width: 992px) {
+    .services-card {
+        margin-top:1rem;
+    }
 }
