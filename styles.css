@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+section {
+    padding: 5rem 0;
+}
 
 .navbar {
     background: black;
@@ -13,16 +16,12 @@
 .nav-link {
     margin: 0 0.5rem;
 }
-.d-flex {
-    color:white;
-    padding: 1.5rem 0;
-    text-transform: uppercase;
-    font-weight: 700;
-}
+
 .services {
     background: #4054B2;
-    min-height: 60vh;
+    color: white;
 }
+
 
 .fas {
     font-size: 4rem;
@@ -30,9 +29,21 @@
     margin: 1.5rem 0;
 }
 
-.services-card {
+.service-container h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.services-card { 
+ color: black;
  text-align: center;
  padding: 0.5rem;
+}
+
+.services-card h3 {
+    padding: 0.5rem;
 }
 
 @media (max-width: 992px) {
