@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 section {
     padding: 5rem 0;
 }
@@ -16,6 +17,7 @@ section {
 .nav-link {
     margin: 0 0.5rem;
 }
+
 
 .services {
     background: #4054B2;
@@ -50,4 +52,19 @@ section {
     .services-card {
         margin-top:1rem;
     }
+
+.productos {
+    margin: 4rem;
+    padding: 3rem;
 }
+
+.productos i {
+    font-size: 5rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.productos h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
