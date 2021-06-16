@@ -1,70 +1,64 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 section {
-    padding: 5rem 0;
+  padding: 5rem 0;
 }
 
 .navbar {
-    background: black;
-    padding: 1.5rem 0;
-    
+  background: black;
+  padding: 1.5rem 0;
 }
 
 .nav-link {
-    margin: 0 0.5rem;
+  margin: 0 0.5rem;
 }
-
 
 .services {
-    background: #4054B2;
-    color: white;
+  background: #4054b2;
+  color: white;
 }
 
-
 .fas {
-    font-size: 4rem;
-    text-align: center;
-    margin: 1.5rem 0;
+  font-size: 4rem;
+  text-align: center;
+  margin: 1.5rem 0;
 }
 
 .service-container h2 {
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 1rem 0;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1rem 0;
 }
 
-.services-card { 
- color: black;
- text-align: center;
- padding: 0.5rem;
+.services-card {
+  color: black;
+  text-align: center;
+  padding: 0.5rem;
 }
 
 .services-card h3 {
-    padding: 0.5rem;
+  padding: 0.5rem;
 }
 
 @media (max-width: 992px) {
-    .services-card {
-        margin-top:1rem;
-    }
-
-.productos {
-    margin: 4rem;
-    padding: 3rem;
+  .services-card {
+    margin-top: 1rem;
+  }
 }
 
-.productos i {
+  .productos i {
     font-size: 5rem;
     text-align: center;
     margin: 2rem;
-}
+  }
 
-.productos h3 {
+  .productos h3 {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 3rem;
+  }
