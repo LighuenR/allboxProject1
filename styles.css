@@ -2,6 +2,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  list-style: none;
+}
+
+main{
+  margin-top: 80px;
 }
 
 section {
@@ -45,11 +50,7 @@ section {
   padding: 0.5rem;
 }
 
-@media (max-width: 992px) {
-  .services-card {
-    margin-top: 1rem;
-  }
-}
+
 
   .productos i {
     font-size: 5rem;
@@ -62,3 +63,118 @@ section {
     text-transform: uppercase;
     margin-bottom: 3rem;
   }
+
+  .map-container iframe{
+    width: 100%;
+    min-height: rem;
+  }
+
+  .footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    max-height: 7rem;
+  }
+
+  footer h6{
+    padding-top: 1rem;
+    margin: 0;
+  }
+
+  footer a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    margin: 0 0.5rem;
+    padding-bottom: 2rem;
+  }
+
+  .footer i{
+    font-size: 1rem;
+    margin-right: 0.5rem;
+  }
+
+ .variedades{
+   text-align: center;
+ }
+
+ .magenta {
+  color: #E8258E;
+ }
+ .black {
+   color: black;
+ }
+ .cian {
+   color:#00AFF2;
+ }
+.green {
+  color:green;
+}
+.yellow {
+  color: #FDF00E;
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 40vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: brightness(1.5);
+}
+.video-banner { 
+  position: relative;
+}
+
+
+.viewport-header {
+  position: relative;
+  height: 40vh;
+  color: white;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+
+.v-content h1 {
+  color: white;
+  font-size: 3rem;
+
+}
+
+@media (max-width: 992px) {
+  .services-card {
+    margin-top: 1rem;
+  }
+}
+
+.contact-section{
+  text-align: center;
+  margin: auto;
+}
+
+.contact{
+  padding: 3rem;
+  display: grid;
+  place-items: center;
+}
+
+.contact i{
+  font-size: 1rem;
+  margin-right: 3px;
+  color: #4054b2;
+}
+
+.contact a{
+  text-decoration: none;
+  color: black;
+}
+
+.form{
+  padding: 3rem;
+  background-color: #4054b2;
+  color: #fff;
+}
+

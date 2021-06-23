@@ -1,195 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Allbox</title>
-  </head>
 
-  <body>
-    <header>
-      <nav class="navbar navbar-dark navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-img" href="#"
-            ><img
-              width="170"
-              height="40"
-              src="./img/logo-allbox.png"
-              class="attachment-full size-full lazyloaded"
-              alt=""
-              data-lazy-src="http://allboxcordoba.com.ar/wp-content/uploads/2019/12/logo-allbox.png"
-              data-was-processed="true"
-          /></a>
-          <button
-            class="navbar-toggler btn btn-primary"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Nosotros</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Producto
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Papel</a></li>
-                  <li><a class="dropdown-item" href="#">Carton</a></li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li><a class="dropdown-item" href="#">Hot stamping</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Servicios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
-                  >Galeria</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
-                  >Contacto</a
-                >
-              </li>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Allbox</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-img" href="#"><img width="170" height="40" src="./img/logo-allbox.png"
+            class="attachment-full size-full lazyloaded" alt=""
+            data-lazy-src="http://allboxcordoba.com.ar/wp-content/uploads/2019/12/logo-allbox.png"
+            data-was-processed="true" /></a>
+        <button class="navbar-toggler btn btn-primary" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Producto
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Papel</a></li>
+                <li><a class="dropdown-item" href="#">Carton</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#">Hot stamping</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="video-banner">
+      <video src="http://allboxcordoba.com.ar/wp-content/uploads/2019/12/ab5.mp4" autoplay
+        muted></video>
+
+      <div class="viewport-header">
+        <div>
+          <h1>Allbox Packaging</h1>
+          <h3>La solucion completa para la presentacion de tus productos</h3>
+          <a href="#productos"><button class="btn btn-dark my-2">Ver productos</button></a>
+        </div>
+      </div>
+    </div>
+    <section class="container">
+      <div class="row variedades">
+        <div class="col-lg col-sm-4 col-sm-4 magenta"><i class="fas fa-bread-slice"></i>
+          <h6>Panificación</h6>
+        </div>
+        <div class="col-lg col-sm-4 col black"><i class="fas fa-diagnoses"></i>
+          <h6>Pastas</h6>
+        </div>
+        <div class="col-lg col-sm-4 cian"><i class="fas fa-motorcycle"></i>
+          <h6>Delivery</h6>
+        </div>
+        <div class="col-lg col-sm-4 green"><i class="fas fa-plus"></i>
+          <h6>Farmacias</h6>
+        </div>
+        <div class="col-lg col-sm-4 yellow"><i class="fas fa-layer-group"></i>
+          <h6>Otros</h6>
+        </div>
+      </div>
+    </section>
+    <section class="services service-container">
+      <div class="container">
+        <h2>Nuestros Servicios</h2>
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div class="card services-card">
+              <i class="fas fa-pencil-ruler"></i>
+              <h3>Diseño</h3>
+              <p>Desarrollo de proyectos de packaging en medios graficos</p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card services-card">
+              <i class="fas fa-industry"></i>
+              <h3>Fabricacion</h3>
+              <p>
+                Puesta en marcha del proyecto aprobado. Fabricacion integral y
+                propia de Allbox
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card services-card">
+              <i class="fas fa-users"></i>
+              <h3>Asesoramiento</h3>
+              <p>
+                Constante atencion para garantizar un producto de acuerdo al
+                proyecto original
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container productos" id="productos">
+      <h3>Nuestros productos</h3>
+      <div class="row">
+        <div class="col-6 col-lg-3">
+          <div class="card">
+            <i class="fas fa-box-open"></i>
+            <h3>Cajas</h3>
+            <ul>
+              <li>Ravioles</li>
+              <li>Panificación</li>
+              <li>Alfajores</li>
+              <li>Delivery</li>
+              <li>Especiales</li>
             </ul>
           </div>
         </div>
-      </nav>
-    </header>
-
-    <main>
-      <section class="services service-container">
-        <div class="container">
-          <h2>Nuestros Servicios</h2>
-          <div class="row">
-            <div class="col-12 col-lg-4">
-              <div class="card services-card">
-                <i class="fas fa-pencil-ruler"></i>
-                <h3>Diseño</h3>
-                <p>Desarrollo de proyectos de packaging en medios graficos</p>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4">
-              <div class="card services-card">
-                <i class="fas fa-industry"></i>
-                <h3>Fabricacion</h3>
-                <p>
-                  Puesta en marcha del proyecto aprobado. Fabricacion integral y
-                  propia de Allbox
-                </p>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4">
-              <div class="card services-card">
-                <i class="fas fa-users"></i>
-                <h3>Asesoramiento</h3>
-                <p>
-                  Constante atencion para garantizar un producto de acuerdo al
-                  proyecto original
-                </p>
-              </div>
-            </div>
+        <div class="col-6 col-lg-3">
+          <div class="card">
+            <i class="fas fa-shopping-bag"></i>
+            <h3>Bolsas boutique</h3>
+            <ul>
+              <li>Regaleria</li>
+              <li>Calzado</li>
+              <li>Ropa</li>
+              <li>Perfumeria</li>
+              <li>Especiales</li>
+            </ul>
           </div>
         </div>
-      </section>
-
-      <section class="container productos">
-        <div class="row">
-          <div class="col-3">
-            <div class="card">
-              <i class="fas fa-box-open"></i>
-              <h3>Cajas</h3>
-              <ul>
-                <li>Ravioles</li>
-                <li>Panificación</li>
-                <li>Alfajores</li>
-                <li>Delivery</li>
-                <li>Especiales</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-3">
-            <div class="card">
-              <i class="fas fa-shopping-bag"></i>
-              <h3>Bolsas boutique</h3>
-              <ul>
-                <li>Regaleria</li>
-                <li>Calzado</li>
-                <li>Ropa</li>
-                <li>Perfumeria</li>
-                <li>Especiales</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-3">
-            <div class="card">
-              <i class="fas fa-shopping-bag"></i>
-              <h3>Papel bobina y bolsas de papel</h3>
-              <ul>
-                <li>35 gramos</li>
-                <li>Impresion 1 a 3 colroes</li>
-                <li>Medidas 20, 40, 60 y 80</li>
-                <li>Papel Kraf Marron</li>
-                <li>Papel Cristal Blanco</li>
-                <li>Cantidad minima 250kg</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-3">
-            <div class="card">
-              <i class="fas fa-shopping-bag"></i>
-              <h3>Varios</h3>
-              <ul>
-                <li>Papel Parafinado</li>
-                <li>Servilletas</li>
-                <li>Bolsas de papel</li>
-                <li>Mantelitos</li>
-                <li>Ot</li>
-              </ul>
-            </div>
+        <div class="col-6 col-lg-3">
+          <div class="card">
+            <i class="fas fa-shopping-bag"></i>
+            <h3>Papel bobina y bolsas de papel</h3>
+            <ul>
+              <li>35 gramos</li>
+              <li>Impresion 1 a 3 colroes</li>
+              <li>Medidas 20, 40, 60 y 80</li>
+              <li>Papel Kraf Marron</li>
+              <li>Papel Cristal Blanco</li>
+              <li>Cantidad minima 250kg</li>
+            </ul>
           </div>
         </div>
-      </section>
-    </main>
+        <div class="col-6 col-lg-3">
+          <div class="card">
+            <i class="fas fa-shopping-bag"></i>
+            <h3>Varios</h3>
+            <ul>
+              <li>Papel Parafinado</li>
+              <li>Servilletas</li>
+              <li>Bolsas de papel</li>
+              <li>Mantelitos</li>
+              <li>Ot</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <footer></footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <div class="row contact-section">
+
+      <div class="col-12 col-lg-6 contact">
+        <div>
+
+          <h1>Contactanos</h1>
+
+          <ul>
+            <a href="">
+              <li>
+                <i aria-hidden="true" class="fas fa-phone-alt"></i>
+                0351 466-7951
+              </li>
+            </a>
+            <a href="">
+              <li>
+                <i aria-hidden="true" class="fas fa-phone-alt"></i>
+                0351 598-1523/4
+              </li>
+            </a>
+            <a href="">
+              <li>
+                <i aria-hidden="true" class="fas fa-envelope"></i>
+                arte@allboxcordoba.com.ar
+              </li>
+            </a>
+            <a href="">
+              <li>
+                <i aria-hidden="true" class="fas fa-map-marker-alt"></i>
+                Fournier 1765 - Cordoba
+              </li>
+            </a>
+          </ul>
+
+        </div>
+
+
+      </div>
+
+      <div class="col-12 col-lg-6 form">
+        <form>
+          <div class="mb-3">
+            <label for="form-name" class="form-name">Nombre</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Ingrese su nombre completo">
+          </div>
+          <div class="mb-3">
+            <label for="form-email" class="form-label">Correo</label>
+            <input type="email" class="form-control" id="form-email" placeholder="Ingrese su correo">
+          </div>
+          <div class="mb-3">
+            <label for="form-tel" class="form-label">Telefono</label>
+            <input type="number" class="form-control" id="form-tel" placeholder="Ingrese su telefono">
+          </div>
+
+          <div class="mb-3">
+            <label for="form-msj" class="form-msj" id="form-msj">Mensaje</label>
+            <textarea class="form-control" id=""></textarea>
+          </div>
+          <div class="d-grid gap-2">
+            <button class="btn btn-dark" type="button">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d347.66010875436956!2d-64.24080315460303!3d-31.42964305241649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2018bf96bab%3A0xb0710082125f4901!2sFournier%201765%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1624306817727!5m2!1ses-419!2sar"
+        width="400" height="300" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+  </main>
+
+
+
+  <footer>
+    <div class="footer">
+      <h6>Allbox - Cordoba , Argentina.</h6>
+
+      <a href="tel:03514667951">
+        <span class="elementor-icon-list-icon">
+          <i aria-hidden="true" class="fas fa-phone-alt"></i>
+        </span>
+        <span class="elementor-icon-list-text">0351 466-7951</span>
+      </a>
+
+      <span>|</span>
+
+      <a href="mailto:arte@allboxcordoba.com.ar">
+        <i aria-hidden="true" class="fas fa-envelope"></i>
+        <span>arte@allboxcordoba.com.ar</span>
+      </a>
+
+      <span>|</span>
+
+      <a href="https://maps.google.com/maps?ll=-31.429558,-64.240661&amp;z=15&amp;t=m&amp;hl=es-ES&amp;gl=US&amp;mapclient=embed&amp;daddr=Fournier%201765%20C%C3%B3rdoba@-31.4295581,-64.240661"
+        target="_blank">
+        <i aria-hidden="true" class="fas fa-map-marker-alt"></i>
+        <span>Fournier 1765 - Cordoba</span>
+      </a>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
