@@ -72,8 +72,8 @@ section {
   .footer {
     background-color: black;
     color: #fff;
+    display: grid;
     text-align: center;
-    max-height: 7rem;
   }
 
   footer h6{
