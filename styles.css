@@ -137,11 +137,9 @@ video {
   text-align: center;
 }
 
-
 .v-content h1 {
   color: white;
   font-size: 3rem;
-
 }
 
 @media (max-width: 992px) {
@@ -162,6 +160,7 @@ video {
   place-items: center;
 
 }
+
 .contact li {
   list-style: none;
 
