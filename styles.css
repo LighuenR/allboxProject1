@@ -235,7 +235,13 @@ video {
 }
 
 .sliders{
-  max-width: 500px;
+  max-width: 600px;
   justify-content: center;
   margin-bottom: 2rem;
+  
 }
+
+.carousel-inner {
+  min-height: 500px;
+}
+
